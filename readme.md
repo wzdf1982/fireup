@@ -31,12 +31,11 @@ postgres=# CREATE ROLE vagrant SUPERUSER LOGIN;
 postgres=# \q
 
 ```
-Change the postgresql's configuration to make no need password for local user.
+Change the postgresql's configuration to make no need password for local user.change the md5 to trust.
 
 ```bash
 sudo vim /etc/postgresql/9.2/main/pg_hba.conf
 ```
-change the md5 to trust.
 
 change the encoding 
 
