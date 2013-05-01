@@ -11,10 +11,17 @@ It contains `postgresql`, `redis` and `nginx` recipes.
 ```bash
 git clone git://github.com/SaitoWu/fireup.git
 cd fireup
-gem install librarian
+gem install librarian-chef
 librarian-chef install
 vagrant up
 ```
+
+vagrant ssh
+
+```bash
+sudo /vagrant/install.sh
+```
+
 
 ## THANKS
 
